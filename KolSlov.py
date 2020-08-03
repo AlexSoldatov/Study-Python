@@ -1,3 +1,1 @@
-s = input()
-prob = s.count(" ") + 1
-print(prob)
+print(len(set(open('input.txt').read().strip().split())))
